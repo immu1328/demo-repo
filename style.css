@@ -193,3 +193,8 @@ nav li{
      justify-content: center;
      background-image: linear-gradient(purple orange yellow pink);
      }
+
+     .part1 {
+         font-style: normal;
+         font-size: 150px;
+     }
