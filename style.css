@@ -156,7 +156,7 @@ nav li{
      display: flex;
      justify-content: center;
      background-color: rgb(140, 212, 140);
-     border-image-width: auto;
+     border-image-outset: unset;
     }
  .b {
      grid-column: col 3 / span  3 ;
