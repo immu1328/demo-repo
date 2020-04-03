@@ -151,14 +151,14 @@ nav li{
     }
 
  .a {
-     grid-column: col / span  2;
+     grid-column: col 1 / span  3;
      grid-row: row 1;
      display: flex;
      justify-content: center;
      background-color: rgb(140, 212, 140);
     }
  .b {
-     grid-column: col 4 / span  2 ;
+     grid-column: col 3 / span  3 ;
      grid-row: row 1;
      display: flex;
      justify-content: center;
