@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Title>Contact us</Title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+           <div class ='nav-wrapper'>
+           <ul id="nav-mobile" class="left-hide-on-med-and-down">
+            <li><a href="aamir.html"> Home</a></li>
+            <li><a href="about me.html"> About us</a></li>
+            <li><a href="contact.html"> Contact us</a></li>
+           </ul>
+           </div>
+        </nav>
+
+    <form name="Contact us" method="get" action="www.abc.com">
+        <blockquote>
+            <div class="row">
+                <div class="input-field col s8">
+                    <i class="material-icons prefix">account_circle</i>
+                Name: <input id="icon_prefix" type="text" name="name" placeholder="Full Name" size="30" required> 
+                 <label for="icon_prefix"></label> <br><br>
+                    <i class="material-icons prefix">phone</i>
+                Ph no: <input id="ph" type="tel" name="phone_num" placeholder="9000000000" size="10"><br><br>
+                    <label for="ph"></label> 
+                    <i class="material-icons prefix">mail</i>
+                Email: <input id="email" type="email" name= "email" placeholder="Email address" ><br><br>
+                    <label for="email"></label> 
+                    <i class="material-icons prefix">wc</i>
+                Gender: <input id="male" type="radio" name="Gender" value="M">Male
+                    <input id="female" type="radio" name="Gender" value="F">Female <br><br>
+                    <label for="male"></label> <label for="female"></label>
+                    <i class="material-icons prefix">vpn_key</i>
+                Password: <input id="password" type="Password" size="20"><br><br>
+                    <label for="password"></label>
+                    <i class="material-icons prefix">cake</i>
+                DOB: <input id="dob" type="text" name="DOB" placeholder="dd/mm/yyyy" pattern="d{2}\[\/]\d{2}\[\/]\d{4}"> <br> <br>
+                    <label for="dob"></label>
+                
+                    <i class="material-icons prefix">location_city</i>
+                Address:<br>
+                <textarea id="address" name="Address" id="address" cols="50" rows="5"> H. No. Street, City, State</textarea>
+                    <label for="address"></label><br> <br>
+                    <i class="material-icons prefix">check_box</i>
+                Feed back: 
+                    <input id="fd" type="checkbox" name="good"> good
+                    <input id="fd" type="checkbox" name="fair"> fair
+                    <input id="fd" type="checkbox" name="bad"> bad
+                    <label for="fd"></label>
+                    <br> <br>
+                </div>    
+                <button class="btn waves-effect waves-light" type="submit" name="bt1">Submit  <i class="material-icons right">send</i> </button>
+                
+                <button class="btn waves-effect waves-light" type="reset" name="bt2">Reset  <i class="material-icons right">replay</i> </button>
+                
+                <button class="btn waves-effect waves-light" type="button" name="bt3">Forgot Password  <i class="material-icons right">vpn_key</i> </button>
+                
+            </div>
+            </blockquote>
+    </form>
+
+</body>
+</html>
