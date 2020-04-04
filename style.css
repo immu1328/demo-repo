@@ -205,3 +205,68 @@ nav li{
          font-style: normal;
          font-size: 50px;
      }
+
+     html {
+         box-sizing: border-box;
+         scroll-behavior: smooth;
+     }
+     
+      
+      .wrapper1 {
+              display: grid;
+              grid-gap: 10px;
+              grid-template-columns: 33% 33% 33%;
+              background-color: #fff;
+              color: #444;
+              margin: 20px;
+          }
+      
+          .box {
+              background-color: #444;
+              color: #fff;
+              border-radius: 5px;
+              padding: 20px;
+              font-size: 150%;
+      
+          }
+      
+          .A {
+              grid-column: 1 / span 2;
+          }
+          .B {
+              grid-column: 3 ;
+              grid-row: 1 / span 2;
+          }
+          .C {
+              grid-column: 1 / span 2 ;
+              grid-row: 2 ;
+          }
+          .D {
+              grid-column: 1/ span 3 ;
+              grid-row: 3 ;
+            
+          }
+
+          .E {
+              grid-column:2 / span2 ;
+              grid-row: 4;
+          }
+
+          .F {
+            grid-column: 1 / span 3 ;
+            grid-row: 5;
+        }
+
+nav1 li {
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+nav1 li A {
+    color: white;
+    
+}
+nav1 ul {
+    list-style: none;
+}
